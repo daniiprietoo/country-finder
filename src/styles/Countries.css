@@ -1,0 +1,26 @@
+.CountryList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .ShowButton{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #282c34;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    align-self: center;
+  }
+  
+  .CountryList {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .CountryList:not(.show) {
+    opacity: 0;
+    visibility: hidden;
+  }

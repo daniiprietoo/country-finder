@@ -1,0 +1,51 @@
+.Country {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transitions */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .Country:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Add a slight lift effect on hover */
+  }
+  
+  .Country h2 {
+    margin-bottom: 10px;
+  }
+  
+  .Country p {
+    margin: 5px 0;
+  }
+  
+  .Country img {
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50%; /* Make the image round */
+  }
+  
+  .Country button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition to button */
+  }
+  
+  .Country button:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+  }
+  
